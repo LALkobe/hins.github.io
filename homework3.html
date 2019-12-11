@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: purple;
+  padding: 5px;
+  text-align: center;
+  font-size:10px;
+  color: white;
+  font-family:Arial;
+}
+
+div.self{columns:2; column-rule:silver solid 1px;}
+
+article {
+  float: left;
+  padding: 50px;
+  width: 100%;
+  background-color:yellow;
+  height: 400px; /* only for demonstration, should be removed */
+}
+  img.me{
+    
+    width:225px;
+    height:212px;
+    float:left;
+    border-style: solid;
+  }
+    img.photo{
+    width:300px;
+    height:250px;
+    padding: 10px;
+    float:left;
+  }
+
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.java {width: 60%; background-color: #808080;}
+</style>
+<meta charset="UTF-8">
+<title>Document</title>
+</head>
+<body>
+	
+	<body bgcolor="gold">
+
+<h2 align=center >Hins's Resume</h2>
+
+<header>
+  <h2>基本資料</h2>
+</header>
+  <article>
+    
+    <div class="self">
+    <img src="me1.jpg" alt="Jing" class=me>
+    <h1 align="center">個人資訊</h1>
+    <h3>　　　姓名:張瑋軒</h3>
+    <h3>　　　出生日期:1994/12/21</h3>
+    <h3>　　　E-mail:fred19942000@gmail.com</h3>
+    <a href="https://lalkobe.github.io/kobe0824.github.io/10444272.html">個人網頁</a>
+    
+    
+    
+    
+    <h1 align="center">學歷</h1>
+    <h3 align="center">小學:聖公會嘉福榮真小學</h3>
+    <h3 align="center">中學:宣道會陳朱素華紀念中學</h3>
+    <h3 align="center">先修班:國立臺灣師範大學僑生先修部</h3>
+    <h3 align="center">大學:中原大學資訊管理系</h3>
+
+    
+ 
+    </div>
+  </article>
+
+<br>
+<header>
+  <h2>MY SKILL</h2>
+</header>
+
+<p>HTML</p>
+<div class="container">
+  <div class="skills html">90%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">80%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">65%</div>
+</div>
+
+<p>java</p>
+<div class="container">
+  <div class="skills java">60%</div>
+</div>
+<br>
+
+</body>
+</html>
